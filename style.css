@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #2bbda5;
+    border-radius: 5px;
+    background-color: #09fed9;
+}
+
+.display {
+    margin-bottom: 20px;
+    margin-right: 45px;
+}
+
+.display input {
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #2bbda5;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #25ccb3;
+}
+
+.buttons button:hover {
+    background-color: #e0e0e0;
+}
